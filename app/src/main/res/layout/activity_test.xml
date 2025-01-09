@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <LinearLayout
+<LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -12,30 +7,20 @@
 
         <TextView
             android:id="@+id/question_text"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Вопрос"
             android:textSize="18sp"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp" />
 
         <RadioGroup
             android:id="@+id/options_group"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"/>
-
-        <EditText
-            android:id="@+id/text_input"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Введите ответ"
-            android:visibility="gone"/>
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/next_button"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Следующий вопрос"/>
+            android:text="Следующий вопрос"
+            android:layout_marginTop="16dp" />
     </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
