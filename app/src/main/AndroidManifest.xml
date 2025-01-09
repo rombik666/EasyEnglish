@@ -60,5 +60,11 @@
             android:name=".TestResultsActivity"
             android:exported="false"
             android:label="Результаты теста" />
+
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false"
+            android:label="О приложении"
+            />
     </application>
 </manifest>

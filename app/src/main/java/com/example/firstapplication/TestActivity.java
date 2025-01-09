@@ -43,7 +43,7 @@ public class TestActivity extends AppCompatActivity {
                 if (currentQuestionIndex < questions.size()) {
                     loadQuestion();
                 } else {
-                    showResults();
+                    showResults(score, questions.size());
                 }
             }
         });
@@ -60,10 +60,10 @@ public class TestActivity extends AppCompatActivity {
         }
     }
 
-    private void showResults() {
+    private void showResults(int correctAnswers, int totalQuestions) {
         Intent intent = new Intent(TestActivity.this, TestResultsActivity.class);
-        intent.putExtra("score", score);
-        intent.putExtra("total", questions.size());
+        intent.putExtra("correctAnswers", correctAnswers);
+        intent.putExtra("totalQuestions", totalQuestions);
         startActivity(intent);
         finish();
     }

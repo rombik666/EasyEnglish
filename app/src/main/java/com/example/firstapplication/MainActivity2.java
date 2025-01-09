@@ -30,5 +30,12 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button aboutButton = findViewById(R.id.button_about);
+        aboutButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity2.this, AboutActivity.class);
+            startActivity(intent);
+        });
+
     }
 }
