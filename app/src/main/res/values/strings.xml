@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FirstApplication</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_list">List</string>
+    <string-array name="Emailarr">
+        <item>one</item>
+        <item>t</item>
+        <item>w</item>
+        <item>r</item>
+        <item>s</item>
+    </string-array>
+    <string-array name="Passarr">
+        <item>11</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="theory_details">
+        <item>Английский алфавит состоит из 26 букв. Буквы делятся на гласные (a, e, i, o, u) и согласные.</item>
+        <item>Основная структура предложения в английском языке: Подлежащее + Сказуемое + Дополнение.</item>
+        <item>Числа в английском языке: 1 - one, 2 - two, 3 - three и так далее.</item>
+        <item>Времена в английском языке: настоящее, прошедшее и будущее.</item>
+        <item>Словарный запас: изучите названия еды, одежды, животных.</item>
+        <item>Предлоги: in, on, at, under, over и другие.</item>
+        <item>Модальные глаголы: can, could, must, should.</item>
+        <item>Пассивный залог: The book was written by him.</item>
+        <item>Фразовые глаголы: get up, look after, take off.</item>
+        <item>Идиомы: Break the ice, a piece of cake.</item>
+    </string-array>
+
+    <!-- Разделы -->
+    <string name="section_theory">Теория</string>
+    <string name="section_tests">Тесты</string>
+
+    <!-- Темы для теории -->
+    <string-array name="theory_topics">
+        <item>Алфавит и произношение</item>
+        <item>Основы грамматики</item>
+        <item>Числа и счёт</item>
+        <item>Времена в английском языке</item>
+        <item>Словарный запас</item>
+        <item>Предлоги</item>
+        <item>Модальные глаголы</item>
+        <item>Пассивный залог</item>
+        <item>Фразовые глаголы</item>
+        <item>Идиомы</item>
+    </string-array>
+    <!-- Уровни сложности -->
+    <string name="level_easy">Легкий</string>
+    <string name="level_medium">Средний</string>
+    <string name="level_hard">Сложный</string>
+
+    <!-- Вопросы и ответы -->
+    <string name="easy_question">Выберите правильный перевод слова "Apple":</string>
+    <string-array name="easy_answers">
+        <item>Апельсин</item>
+        <item>Яблоко</item>
+        <item>Груша</item>
+        <item>Вишня</item>
+    </string-array>
+
+    <string name="medium_question">Выберите правильную форму глагола: "He ___ to the park every day."</string>
+    <string-array name="medium_answers">
+        <item>go</item>
+        <item>goes</item>
+        <item>going</item>
+        <item>gone</item>
+    </string-array>
+
+    <string name="hard_question">Какое время правильно использовать в данном предложении? "If I ___ enough money, I would buy a car."</string>
+    <string-array name="hard_answers">
+        <item>had</item>
+        <item>have</item>
+        <item>will have</item>
+        <item>am having</item>
+    </string-array>
+
+    <!-- Кнопки -->
+    <string name="check_answer">Проверить</string>
+    <string name="correct_answer">Правильный ответ!</string>
+    <string name="wrong_answer">Неправильный ответ. Попробуйте снова.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

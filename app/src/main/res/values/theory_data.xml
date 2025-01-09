@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theory_titles">
+        <item>Алфавит и основные буквы</item>
+        <item>Приветствия и знакомство</item>
+        <item>Цифры и числа</item>
+        <item>Дни недели и время</item>
+        <item>Семья и друзья</item>
+        <item>Цвета и формы</item>
+        <item>Еда и напитки</item>
+        <item>Места и направления</item>
+        <item>Времена глаголов</item>
+        <item>Простые предложения и вопросы</item>
+    </string-array>
+
+    <string-array name="theory_descriptions">
+        <item>Английский алфавит состоит из 26 букв. Вот несколько примеров: A - Apple, B - Ball...</item>
+        <item>Научитесь здороваться: Hello! How are you? I am fine, thank you.</item>
+        <item>Числа в английском: One (1), Two (2), Three (3)...</item>
+        <item>Дни недели: Monday, Tuesday, Wednesday...</item>
+        <item>Семья: Mother, Father, Brother...</item>
+        <item>Цвета: Red, Blue, Green...</item>
+        <item>Еда: Bread, Milk, Meat...</item>
+        <item>Места: Park, School, Mall...</item>
+        <item>Времена: Present - I go, Past - I went...</item>
+        <item>Простые предложения: I like apples. Do you like bananas?</item>
+    </string-array>
+</resources>
