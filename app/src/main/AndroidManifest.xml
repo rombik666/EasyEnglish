@@ -49,12 +49,16 @@
         <activity
             android:name=".TheoryDetailActivity"
             android:exported="false"
-            android:label="Тесты" />
+            android:label="Детали теории" />
 
         <activity
             android:name=".TestActivity"
             android:exported="false"
             android:label="Прохождение теста" />
 
+        <activity
+            android:name=".TestResultsActivity"
+            android:exported="false"
+            android:label="Результаты теста" />
     </application>
 </manifest>
